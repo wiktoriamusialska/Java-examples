@@ -11,5 +11,16 @@ public class InkrementacjaDekrementacja {
         System.out.println("Wartosc c preinkrementacja  "+c);//2
         System.out.println("Wartosc a preinkrementacja  "+a);//2
 
+
+        //dekrementacja zmniejszanie wartosci o jeden
+        int d=0;
+        System.out.println("Wartosc d dekrementacja: " +d );//0
+        int e=d--;
+        System.out.println("Wartosc e dekrementacja:" + e);//0
+        System.out.println("Wartosc d dekrementacja:"+d);//-1
+        int f=--d;
+        System.out.println("Wartosc f dekrementacja:" +f);//-2
+        System.out.println("Wartosc d dekrementacja:" + d);//-2
+
     }
 }
